@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developing My Frontend Skillss</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="js/script.js"></script> -->
+    <body>
+        <header>
+            <section class="time-class">
+                <h2>Current Date and Time</h2>
+                <p id="time" data-testid="currentTimeUTC">time</p>
+                <p id="day" data-testid="currentDay">day</p>
+            </section>
+              <div class="header-img-div">
+                <img src="image/reina.jpeg" data-testid="slackProfilePicture" alt="slack picture" />
+                <div class="header-img-div">
+            <h1 data-testid="slackDisplayName">Reina</h1>
+            <h1 data-testid="email">maryannetonike@gmail.com</h1>
+        </div>
+        </header>
+        <main>
+            <section id="intro">        
+        <h2><b>My Tech Journey for the next 2 years in the tech industry.</b></h2>
+        <p>
+            Hi there! Welcome to my world of code exploration! My name is Maryanne, and I'm a novice frontend developer. 
+            Solidifying my abilities and leaving my mark in this fascinating sector are my main priorities for the next two years. 
+            My tech journey has the following route map:
+        </p>
+    </div>
+</section>
+<section id="first year goals">
+  <h2>Building the Blocks in Year One</h2>
+  <div class="first year goals">
+    <div class="first year goals-list">
+      <i class="fa-solid fa-chalkboard"></i> JavaScript: I'm mastering the language that makes web interfaces come to life, JavaScript. Initially, I want to get proficient with variables, functions, and object oriented programming. During this journey, my allies will include online tutorials, coding camps, and an introductory JavaScript course.
+    </div>
+    <div class="first year goals-list">
+        <i class="fa-solid fa-users"></i>Delving into the Frontend space🛸🚀: The frontend space is broad, ranging from creating dynamic websites to elegant web applications. To determine what really interests me, I'll be exploring a variety of topics including accessibility and UI/UX design. For the sake of understanding the wider picture, who knows, maybe I'll even dabble in a little backend development!
+      </div>
+      <div class="first year goals-list">
+        <i class="fa-solid fa-user-tie"></i>Problem-Solving Superpower🏋️: Coding exercises serve as my practice field! My ability to reason logically and solve problems will improve thanks to websites like LeetCode and HackerRank. This wannabe frontend warrior will take on any code puzzle!
+        gain experience.
+      </div>
+      <div class="first year goals-list">
+        <i class="fa-solid fa-code"></i>First Frontend Mission 💪 : It's time to apply everything I've learned! Maybe a straightforward portfolio website or an entertaining, interactive game will be my personal endeavor. This will demonstrate my skills to the world and reinforce what I have learned.
+      </div>
+    </div>
+</section>
+<section id="second year goals">
+  <h2>Perfecting the rough edges in the Second Year</h2>
+  <div class="second year goals">
+    <div class="second year goals-list">
+      <i class="fa-solid fa-chalkboard"></i>Diving deep into Frameworks: Now that I have a better idea of my frontend specialty, I'll go farther into a certain framework. With its component-based methodology, ReactJS looks like an extremely fascinating project! Gaining expertise with a framework will enable you to develop at an entirely new level.
+    </div>
+    <div class="second year goals-list">
+        <i class="fa-solid fa-users"></i>Exploring open Source projects: Adding to open-source projects is a great approach to obtain practical experience. Giving back to the community while working with seasoned developers is, in my opinion, a win-win situation!
+      </div>
+      <div class="second year goals-list">
+        <i class="fa-solid fa-user-tie"></i>Expanding My Network: Networks are crucial in the tech industry. My plan is to network with other developers, mentors, and possible employers by participating in online forums, meetings, and conferences (both virtual and physical!). Developing a solid network will lead to new opportunities in the future.
+      </div>
+      <div class="second year goals-list">
+        <i class="fa-solid fa-code"></i>Interview processes : Participating in technical interviews is a necessary part of the process. I'll get ready by working on typical coding tasks, refining my ability to solve problems under duress, and possibly even looking for practice interviews. I'm up for the challenges, so go ahead!
+      </div>
+</div>
+</section>
+<section id="conclusion">
+  <h2>Keep in mind</h2>
+  <p>
+    The Secret is Curiosity: I'm committed to staying ahead of the curve because the tech world is always changing. My constant learning will be fueled by workshops, meetups, and online resources.
+  </p>
+  <p>  
+Take Joy in the Journey: Education shouldn't be a chore. I'll look at interesting coding solutions, discover parts of frontend development that fascinate me, and most of all, enjoy the process!
+  </p>
+  <p>
+    Making mistakes is unavoidable, but they are also opportunities for improvement—from novice to ninja. I'll take what I can from them, change with the times, and work hard to advance as a proficient and self-assured frontend developer.
+  </p>
+  <p>
+    My journey with coding is only getting started! I picture myself being a kickass frontend developer in two years, adding to amazing projects and improving the web. I hope you will follow along on my adventure; the best is yet to come!
+
+  </p>
+</section>
+   </div>
+</div>
+</section>
+<section id="contact">
+  <h2>Contact</h2>
+  <p>
+    I'm a strong believer in the power of accessible design to improve lives. I'm actively seeking a collaborative, cross-functional team where I can leverage my skills to make a positive impact through inclusive design practices.Let's connect!
+  </p>
+  <a href="mailto:maryannetonike@gmail.com">maryannetonike@gmail.com</a>
+</section>
+   </div>
+</main>
+<footer id="links">
+    <h3>Useful Links</h3>
+    <ul>
+      <li>
+        <a href="https://hng.tech/learn" data-testid="hngLink" target="_blank" rel="noopener noreferrer">HNG Learn</a>
+      </li>
+      <li>
+        <a href="https://keyword.dog" data-testid="keywordLink" target="_blank" rel="noopener noreferrer">Keyword
+          Dog</a>
+      </li>
+      <li>
+        <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink" target="_blank"
+          rel="noopener noreferrer">Scrape Any Web</a>
+      </li>
+    </ul>
+    <p>&copy; 2024 HNG11. All rights reserved.</p>
+  </footer>
+<script>
+  // Function to update the time and day
+function updateTimeAndDay() {
+    const now = new Date();
+
+    // Get the current time in UTC format
+    const utcTime = now.toISOString().split('T')[1].split('.')[0];
+
+    // Get the current day in UTC
+    const options = { weekday: 'long', timeZone: 'UTC' };
+    const utcDay = new Intl.DateTimeFormat('en-US', options).format(now);
+
+    // Update the HTML elements
+    document.getElementById('time').textContent = `${utcTime}`;
+    document.getElementById('day').textContent = `${utcDay}`;
+}
+
+// Update the time and day immediately, and then every second
+updateTimeAndDay();
+setInterval(updateTimeAndDay, 1000);
+</script>
+    </body>  
+</html>
