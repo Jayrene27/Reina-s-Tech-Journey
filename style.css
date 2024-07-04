@@ -9,21 +9,31 @@ body{
  header{
     color: aquamarine;
  }
+ .reina-name{
+    text-align: center;
+ }
  h1{
     background-image: url("image/main.jpg");
     color: rgb(19, 6, 6);
-    max-width: 30%; 
+    max-width: 30%;
+    border: 1px solid black; 
  }
  .time-class{
     background-color: darkkhaki;
     max-width: 40%;
     color: black;
+    border: 1px solid black;
     font-weight: 500;
     font-size: larger;
  }
 main{
     background-image: url("image/main.jpg");
-    text-align: justify  
+    text-align: justify;
+    width: 85%;
+    border: 1px solid black;
+    white-space: normal;
+    word-wrap: break-word;
+    padding: 40px 40px;
 }
 html {
     scroll-behavior: smooth;
