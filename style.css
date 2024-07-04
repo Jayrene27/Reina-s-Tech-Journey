@@ -9,6 +9,11 @@ body{
  header{
     color: aquamarine;
  }
+ h1{
+    background-image: url("image/main.jpg");
+    color: rgb(19, 6, 6);
+    max-width: 30%; 
+ }
  .time-class{
     background-color: darkkhaki;
     max-width: 40%;
