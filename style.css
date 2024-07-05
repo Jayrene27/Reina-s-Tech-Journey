@@ -15,7 +15,7 @@ body{
  h1{
     background-image: url("image/main.jpg");
     color: rgb(19, 6, 6);
-    max-width: 50%;
+    max-width: 85%;
     border: 1px solid black; 
  }
  .time-class{
@@ -25,6 +25,7 @@ body{
     border: 1px solid black;
     font-weight: 500;
     font-size: larger;
+    text-align: center;
  }
 main{
     background-image: url("image/main.jpg");
@@ -41,6 +42,55 @@ html {
 #links{
     background-image: url("image/main.jpg");
 }
+@media (max-width: 1200px) {
+    h1, main {
+        max-width: 90%;
+        padding: 30px 30px;
+    }
+
+    .time-class {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 992px) {
+    h1, main {
+        max-width: 95%;
+        padding: 20px 20px;
+    }
+
+    .time-class {
+        max-width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    h1, main {
+        max-width: 100%;
+        padding: 10px 10px;
+    }
+
+    .time-class {
+        max-width: 70%;
+        font-size: medium;
+    }
+}
+
+@media (max-width: 576px) {
+    h1, main {
+        max-width: 100%;
+        padding: 5px 5px;
+    }
+
+    .time-class {
+        max-width: 80%;
+        font-size: small;
+    }
+
+    .reina-name {
+        font-size: medium;
+    }
+}
 /* h1 {
    text-align:left; 
 }
@@ -52,6 +102,7 @@ h2 {
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      font-size: 32px;
  }  */
+   
 .time-class{
     text-align: center;
 }
